@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Mar, 2024, 10:52:35 PM
+    Author     : dell
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: navy;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    z-index: 1001;
+    padding: 0 20px; /* Add padding from both sides */
+}
+
+.navbar-left {
+    float: left;
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: 16px
+}
+
+.navbar-right {
+    float: right;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 16px
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0bafdc;
+}
+
+.gradient-background {
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    text-align: center;
+    color: white;
+   
+}  
+
+@keyframes gradientAnimation {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }}  
+
+    .image-container {
+        position: relative;
+    }
+
+    .safe-photo-image {
+        width: 100%;
+        height: 450px;
+        display: block;
+       
+    }
+
+    .crime-info {
+        flex: 1;
+    }
+   
+    .crime-info h1 {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+   
+    .crime-info ul {
+        padding-left: 20px; 
+    }
+   
+    .crime-info ul li {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+

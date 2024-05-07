@@ -1,0 +1,109 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  padding-left: 1px;
+  background-image: url('hubad.jpg');
+  background-size: cover; /* Adjusts the background image to cover the entire element */
+  background-repeat: no-repeat;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.4rem;
+}
+.navbar {
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  z-index: 1001;
+  padding: 0 20px; /* Add padding from both sides */
+}
+
+.navbar-left {
+  float: left;
+  margin-right: 20px;
+  font-weight: bolder; 
+  font-size: 16px
+}
+
+.navbar-right {
+  float: right;
+  margin-left: 20px;
+  font-weight: bolder; 
+  font-size: 16px
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #0bafdc;
+}
+/* Set font color to white for all elements */
+* {
+    color: white;
+  }
+  ul {
+    list-style: square;
+    padding-left: 20px; /* Adjust the value as needed */
+  }
+  
+  
+header {
+  position: sticky;
+  top: 0;
+  background: #f8f8f86c;
+}
+.banner_image img {
+  width: 100%;
+}
+.post h1 {
+  font-size: 3rem;
+}
+.post hr {
+  margin: 3rem 0;
+}
+.about-author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
